@@ -21,7 +21,7 @@
   template:
     src: "../templates/deploy.rb"
     dest: "{{ playbook_dir }}/{{ app_name }}/config/"
-    owner: deploy
+    owner: "{{ local_owner }}"
     group: wheel
     mode: 0774
 
@@ -31,7 +31,7 @@
   template:
     src: "../templates/deploy-secrets.yml"
     dest: "{{ playbook_dir }}/{{ app_name }}/config/"
-    owner: deploy
+    owner: "{{ local_owner }}"
     group: wheel
     mode: 0774
 
@@ -41,7 +41,7 @@
   template:
     src: "../templates/production.rb"
     dest: "{{ playbook_dir }}/{{ app_name }}/config/deploy/"
-    owner: deploy
+    owner: "{{ local_owner }}"
     group: wheel
     mode: 0774
 
