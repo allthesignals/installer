@@ -14,7 +14,9 @@
     - postgresql
     - ruby
     - rails
-    - capistrano
+    - ssl
+    - email
+    - queue
     - unicorn
     - nginx
     - memcached
