@@ -77,7 +77,7 @@ remote-server-ip-address (maintain other default options)
 Run the ansible playbook
     
 ```
-sudo ansible-playbook -v consul.yml -i hosts --extra-vars "target=servers local_owner={{ LOCAL USER NAME HERE }}"
+sudo ansible-playbook -v consul.yml -i hosts --extra-vars "target=develop"
 ```
 
 Visit remote-server-ip-address
