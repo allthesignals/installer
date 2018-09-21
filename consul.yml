@@ -10,16 +10,16 @@
   remote_user: deploy
   gather_facts: yes
   roles:
-    # - system
-    # - postgresql
-    # - ruby
-    # - rails
-    # - ssl
-    # - email
-    # - queue
-    # - unicorn
-    # - nginx
-    # - memcached
-    # - timezone
+    - system
+    - postgresql
+    - ruby
+    - rails
+    - ssl
+    - email
+    - queue
+    - unicorn
+    - nginx
+    - memcached
+    - timezone
     - letsencrypt
     
