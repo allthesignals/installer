@@ -1,3 +1,4 @@
 /site.retry
 /hosts
 /consul
+/group_vars/all
