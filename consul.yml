@@ -22,4 +22,4 @@
     - memcached
     - timezone
     - letsencrypt
-    
+    # - capistrano
