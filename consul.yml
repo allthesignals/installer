@@ -15,7 +15,7 @@
     - ruby
     - rails
     - ssl
-    # - email
+    - email
     - queue
     - unicorn
     - nginx
