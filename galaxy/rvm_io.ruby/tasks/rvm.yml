@@ -50,3 +50,6 @@
 - name: Configure rvm
   command: '{{ rvm1_rvm }} autolibs {{ rvm1_autolib_mode }}'
   when: not rvm_binary.stat.exists
+
+- name: Symlink RVM
+  command: 'sudo ln -s /home/deploy/.rvm /root/.rvm'
