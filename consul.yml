@@ -12,11 +12,11 @@
   roles:
     - system
     - postgresql
-    - ruby
-    - rails
+    # - ruby
+    # - rails
     - ssl
     - email
-    - queue
+    # - queue 
     - unicorn
     - nginx
     - memcached

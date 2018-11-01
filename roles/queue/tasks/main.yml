@@ -5,3 +5,4 @@
     dest: /home/deploy/consul/config/initializers/delayed_job_config.rb
     owner: deploy
     group: wheel
+  
